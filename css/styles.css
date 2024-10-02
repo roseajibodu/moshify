@@ -321,7 +321,7 @@ a {
   opacity: 0.8;
   margin-right: 1rem;
 }
-
+  
 .plan__description {
   font-size: 2rem;
   font-weight: 300;
@@ -331,6 +331,19 @@ a {
 
 .plan .list__item {
   margin-bottom: 2rem;
+}
+
+.plan--popular .card__header {
+  position: relative;
+} 
+
+.plan--popular .card__header::before {
+  content: url(../images/popular.svg);
+  width: 40px;
+  display: inline-block;
+  position: absolute;
+  top: -6px;
+  right: 5%;
 }
 
 @media screen and (min-width: 1024px) {
@@ -350,65 +363,3 @@ a {
     font-size: 1.7rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
